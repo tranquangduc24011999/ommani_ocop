@@ -1,0 +1,10 @@
+.user-info {
+    background: white;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}

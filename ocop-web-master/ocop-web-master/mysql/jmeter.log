@@ -1,0 +1,45 @@
+2020-12-29 16:01:37,665 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-12-29 16:01:37,694 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/user.properties
+2020-12-29 16:01:37,695 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.4/libexec/bin/system.properties
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: Version 5.4
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: java.version=15.0.1
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: os.arch=x86_64
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: os.version=10.14.6
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-12-29 16:01:37,705 INFO o.a.j.JMeter: java.awt.headless=null
+2020-12-29 16:01:37,706 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-12-29 16:01:37,706 INFO o.a.j.JMeter: Available Processors =4
+2020-12-29 16:01:37,718 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-12-29 16:01:37,718 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-12-29 16:01:37,718 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.4/libexec
+2020-12-29 16:01:37,719 INFO o.a.j.JMeter: user.dir  =/Users/kakarevert/docker/mysql
+2020-12-29 16:01:37,719 INFO o.a.j.JMeter: PWD       =/Users/kakarevert/docker/mysql
+2020-12-29 16:01:43,734 INFO o.a.j.JMeter: IP: 192.168.1.100 Name: os-MacBook-Pro.local FullName: 192.168.1.100
+2020-12-29 16:01:44,542 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-12-29 16:01:45,840 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-12-29 16:01:47,088 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-12-29 16:01:47,234 INFO o.j.r.PluginManager: Plugins Status: [jpgc-plugins-manager=1.6, jmeter-core=5.4, jmeter-ftp=5.4, jmeter-http=5.4, jmeter-jdbc=5.4, jmeter-jms=5.4, jmeter-junit=5.4, jmeter-java=5.4, jmeter-ldap=5.4, jmeter-mail=5.4, jmeter-mongodb=5.4, jmeter-native=5.4, jmeter-tcp=5.4, jmeter-components=5.4]
+2020-12-29 16:18:22,775 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: /usr/local/Cellar/jmeter/5.4/libexec/bin/templates/templates.xml
+2020-12-29 16:23:37,560 ERROR o.a.j.g.a.ActionRouter: Error processing org.apache.jmeter.gui.action.Start@46731692
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.apache.jmeter.gui.action.Start.startEngine(Start.java:186) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.gui.action.Start.doAction(Start.java:112) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.4]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.4]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:316) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:391) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2020-12-29 16:26:52,438 INFO o.a.j.s.FileServer: Default base='/Users/kakarevert/docker/mysql'

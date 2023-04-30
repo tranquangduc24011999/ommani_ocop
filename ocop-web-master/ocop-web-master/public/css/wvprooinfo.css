@@ -1,0 +1,200 @@
+
+  .SubHeading {
+    width: 100%;
+    height: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #151c30;
+  }
+
+  .Rectangle {
+    width: 4px;
+    height: 12px;
+    border-radius: 1px;
+    background-color: #fd9600;
+    margin-top: 3px;
+    margin-right: 12px;
+
+  }
+
+  .ectangle {
+    width: 99%;
+    height: 96%;
+    /* height: 122px; */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  .titlesinfo {
+    padding: 24px 12px;
+    width: 75%;
+    overflow: hidden;
+    text-align: justify;
+    /* height: 22px; */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #191935;
+    padding-left: 21px;
+  }
+
+  .cice {
+    padding: 2px;
+    width: auto;
+    max-height: 19px;
+    border-radius: 8px;
+    background-color: #049252;
+    margin-top: 3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textone {
+    min-width: 15px;
+    width: auto;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Rectangle-Copy {
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #eff0f1;
+    text-align: center;
+    margin-right: 8px;
+  }
+
+  .re-Copy {
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #eff0f1;
+    text-align: center;
+  }
+
+  .Note-Copy {
+    width: 385px;
+    height: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d7182;
+    margin-bottom: 29px;
+  }
+
+  .dropzone {
+    min-height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background: white;
+    padding: 20px 20px;
+    border-style: dashed;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 35px;
+  }
+
+  .select2-results__option[aria-selected] {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #6d7182;
+    cursor: pointer;
+  }
+
+  .titles {
+    width: 100%;
+    height: 52px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #191935;
+  }
+
+  .supportHeading {
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .Note-Copy {
+    height: 100%;
+  }
+
+  .tooltip>.tooltip-inner {
+    width: 100%;
+    background-color: #039252;
+  }
+
+  /* Tooltip on top */
+  .tooltip.top>.tooltip-arrow {
+    width: 200px;
+    background-color: #039252;
+  }
+  .test .tooltip-inner {
+    width: 800px;
+  }
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  li>.fa,
+  .fas {
+    font-size: 15px;
+    color: #049252;
+    margin-right: 10px;
+  }
+
+  li>.producthref {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+  }
+
+  .page-titles {
+    padding: 14px 29px;
+  }
+  ul li {
+    list-style: none;
+  }

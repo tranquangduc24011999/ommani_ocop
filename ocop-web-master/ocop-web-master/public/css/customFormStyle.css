@@ -1,0 +1,66 @@
+.hasBackground {
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fd9600;
+    margin-top: 9px;
+    background-color: #fff7e3;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin-top: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.colorText {
+    color: #fd9600;
+    margin-top: 0.5rem;
+}
+
+.nameTitile {
+    width: 4px;
+    height: 12px;
+    border-radius: 1px;
+    background-color: #fd9600;
+}
+
+.smallLabel {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 450;
+}
+
+.boldLabel {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.invisibleLabel {
+    display: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.invisibleFormPrototypeWithMarker {
+    display: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.invisibleFormPrototype {
+    display: none !important;
+    margin: 0;
+    padding: 0;
+}

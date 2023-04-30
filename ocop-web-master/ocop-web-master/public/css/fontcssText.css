@@ -1,0 +1,47 @@
+.text-themecolor{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: -2px;
+    padding: 0px;
+    color: grey;
+}
+.swal2-popup .swal2-input, .swal2-popup .swal2-file, .swal2-popup .swal2-textarea{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.card-title{
+    margin-left: -2px;
+    padding: 0px;
+    color: #686464;
+    font-family: sans-serif;
+}
+
+h5{
+    margin-left: -2px;
+    padding: 0px;
+    color: #686464;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+small{
+    color: #686464;
+    font-family: sans-serif;
+}
+.pull-right{
+    color: #686464;
+    font-family: sans-serif;
+}
+.mail-desc{
+    color: #686464;
+    font-family: sans-serif;
+}
+.message-box .message-widget a .mail-contnet h5{
+    margin-left: -2px;
+    padding: 0px;
+    color: #686464;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.message-box .message-widget a .mail-contnet .mail-desc, .message-box .message-widget a .mail-contnet .time{
+    color: #686464;
+}
